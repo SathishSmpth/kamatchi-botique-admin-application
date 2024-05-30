@@ -31,7 +31,6 @@ import { ReadComponent } from './apps/email/read/read.component';
 import { InvoicesPageComponent } from './pages/invoices-page/invoices-page.component';
 import { InvoicesComponent } from './pages/invoices-page/invoices/invoices.component';
 import { InvoiceDetailsComponent } from './pages/invoices-page/invoice-details/invoice-details.component';
-import { StarterComponent } from './starter/starter.component';
 import { PricingPageComponent } from './pages/pricing-page/pricing-page.component';
 import { NotificationsPageComponent } from './pages/notifications-page/notifications-page.component';
 import { UsersPageComponent } from './pages/users-page/users-page.component';
@@ -112,7 +111,6 @@ export const routes: Routes = [
             { path: 'invoice-details', component: InvoiceDetailsComponent },
         ],
     },
-    { path: 'starter', component: StarterComponent },
     { path: 'pricing', component: PricingPageComponent },
     { path: 'notifications', component: NotificationsPageComponent },
     {
